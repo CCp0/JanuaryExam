@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <ListBox x:Name="lbxMemberList" HorizontalAlignment="Left" Height="248" Margin="112,72,0,0" VerticalAlignment="Top" Width="170"/>
+        <ListBox x:Name="lbxMemberList" HorizontalAlignment="Left" Height="248" Margin="112,72,0,0" VerticalAlignment="Top" Width="170" SelectionChanged="lbxMemberList_SelectionChanged"/>
         <RadioButton x:Name="radioAll" Content="All" HorizontalAlignment="Left" Margin="88,350,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radioRegular" Content="Regular" HorizontalAlignment="Left" Margin="144,350,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radioSenior" Content="Senior" HorizontalAlignment="Left" Margin="223,350,0,0" VerticalAlignment="Top"/>

@@ -38,7 +38,7 @@ namespace January_Exam
         public TimeSpan DaysToRenewal()
         {
             TimeSpan daysToRenewal;
-            daysToRenewal = JoinDate.Subtract(RenewalDate()); //Takes the renewal date away from the join date to find how many days are left before the first renewal
+            daysToRenewal = RenewalDate().Subtract(JoinDate); //Takes the renewal date away from the join date to find how many days are left before the first renewal
             return daysToRenewal;
         }
         public virtual decimal CalculateFees()
@@ -56,7 +56,7 @@ namespace January_Exam
         }
         public override string ToString()
         {
-            return $"{Name}\nJoin date: {JoinDate}\nBasic fee: {Fee}\nPayment schedule: {PaymentType} {CalculateFees()}\nRenewal date: {RenewalDate()}\nDays to renewal: {DaysToRenewal()}\n";
+            return $"{Name}";
         }
     }
     public enum PaymentSchedule //Accessible in all cs files

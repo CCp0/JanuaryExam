@@ -1,0 +1,15 @@
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\bin\Debug\January Exam.exe.config
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\bin\Debug\January Exam.exe
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\bin\Debug\January Exam.pdb
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January Exam.csproj.AssemblyReference.cache
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\MainWindow.g.cs
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\App.g.cs
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January Exam_MarkupCompile.cache
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January Exam_MarkupCompile.lref
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\MainWindow.baml
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January Exam.g.resources
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January_Exam.Properties.Resources.resources
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January Exam.csproj.GenerateResource.cache
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January Exam.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January Exam.exe
+C:\Users\chris\OneDrive - Institute of Technology Sligo\OBJ Labs\Object Oriented\January Exam\January Exam\obj\Debug\January Exam.pdb
