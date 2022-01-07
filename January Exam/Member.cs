@@ -21,15 +21,15 @@ namespace January_Exam
         {
             // the next occurrence of the day and month of the join date
             DateTime renewalDate = DateTime.Now;//Current date is default
-            if(PaymentType == PaymentSchedule.annual)
+            if(PaymentType == PaymentSchedule.Annual)
             {
                 renewalDate = JoinDate.AddYears(1);//1 year post joining
             }
-            else if(PaymentType == PaymentSchedule.biannual)
+            else if(PaymentType == PaymentSchedule.Biannual)
             {
                 renewalDate = JoinDate.AddYears(2);//2 years post joining
             }
-            else if(PaymentType == PaymentSchedule.monthly)
+            else if(PaymentType == PaymentSchedule.Monthly)
             {
                 renewalDate = JoinDate.AddMonths(1);//1 month post joining
             }
@@ -41,30 +41,28 @@ namespace January_Exam
             daysToRenewal = JoinDate.Subtract(RenewalDate()); //Takes the renewal date away from the join date to find how many days are left before the first renewal
             return daysToRenewal;
         }
-        public decimal CalculateFees()
+        public virtual decimal CalculateFees()
         {
-            if (PaymentType == PaymentSchedule.annual)
+            decimal calculatedFees = Fee; //Annual fee
+            if (PaymentType == PaymentSchedule.Biannual)
             {
-
+                calculatedFees = Fee * 2; //Biannual fee
             }
-            else if (PaymentType == PaymentSchedule.biannual)
+            else if (PaymentType == PaymentSchedule.Monthly)
             {
-
+                calculatedFees = Fee / 12; //Monthly fee
             }
-            else if (PaymentType == PaymentSchedule.monthly)
-            {
-
-            }
+            return calculatedFees;
         }
         public override string ToString()
         {
-            return $"{Name}\nJoin date: {JoinDate}\nBasic fee: {Fee}\nPayment schedule: {PaymentType}\nRenewal date: {RenewalDate()}\nDays to renewal: {DaysToRenewal()}\n";
+            return $"{Name}\nJoin date: {JoinDate}\nBasic fee: {Fee}\nPayment schedule: {PaymentType} {CalculateFees()}\nRenewal date: {RenewalDate()}\nDays to renewal: {DaysToRenewal()}\n";
         }
     }
     public enum PaymentSchedule //Accessible in all cs files
     {
-        annual,
-        biannual,
-        monthly
+        Annual,
+        Biannual,
+        Monthly
     }
 }
