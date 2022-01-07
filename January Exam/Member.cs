@@ -16,6 +16,18 @@ namespace January_Exam
         public DateTime JoinDate { get; set; }
         public decimal Fee { get; set; }
         public PaymentSchedule PaymentType { get; set; }
+        string memberType;
+        public virtual string MemberType
+        {
+            get
+            {
+                return memberType;
+            }
+            set
+            {
+                memberType = "Regular";
+            }
+        }
         //Computed properties Q1(e)
         public DateTime RenewalDate()
         {

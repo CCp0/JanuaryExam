@@ -8,6 +8,18 @@ namespace January_Exam
 {
     class JuniorMember: Member
     {
+        private string memberType;
+        public override string MemberType
+        {
+            get
+            {
+                return memberType;
+            }
+            set
+            {
+                memberType = "Junior";
+            }
+        }
         public override decimal CalculateFees()
         {
             decimal calculatedFees = Fee * 0.5m; //Annual fee at 50% less than regular members
