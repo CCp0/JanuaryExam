@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:January_Exam"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        
+        <ListBox x:Name="lbxMemberList" HorizontalAlignment="Left" Height="248" Margin="112,72,0,0" VerticalAlignment="Top" Width="170"/>
+        <RadioButton x:Name="radioAll" Content="All" HorizontalAlignment="Left" Margin="88,350,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioRegular" Content="Regular" HorizontalAlignment="Left" Margin="144,350,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioSenior" Content="Senior" HorizontalAlignment="Left" Margin="223,350,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioJunior" Content="Junior" HorizontalAlignment="Left" Margin="302,350,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtMemberDetails" HorizontalAlignment="Left" Margin="533,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="162" Width="208"/>
+        <Label x:Name="lblDetailsTitle" Content="Member Details" HorizontalAlignment="Left" Margin="533,66,0,0" VerticalAlignment="Top" FontSize="20"/>
+
     </Grid>
 </Window>
