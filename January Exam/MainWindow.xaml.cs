@@ -74,7 +74,7 @@ namespace January_Exam
             Member selected = lbxMemberList.SelectedItem as Member;//The selected members' details can be accessed now
             if (selected != null)
             {
-                txtMemberDetails.Text = $"{selected.Name}\nJoin date: {selected.JoinDate}\nBasic fee: {selected.Fee}\nPayment schedule: {selected.PaymentType} €{selected.CalculateFees().ToString("0.00")}\nRenewal date: {selected.RenewalDate().ToShortDateString()}\nDays to renewal: {selected.DaysToRenewal()}\n";
+                txtMemberDetails.Text = $"{selected.Name}\nJoin date: {selected.JoinDate.ToShortDateString()}\nBasic fee: €{selected.Fee}\nPayment schedule: {selected.PaymentType} - €{selected.CalculateFees():0.00}\nRenewal date: {selected.RenewalDate().ToShortDateString()}\nDays to renewal: {selected.DaysToRenewal().Days}\n";
             }
         }
 
